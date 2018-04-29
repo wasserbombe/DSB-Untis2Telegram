@@ -9,6 +9,7 @@ Both scripts ([getData.php](../master/getData.php) and [alert.php](../master/ale
 
 ### Database Connection
 A database is used to store the data. The database connection and their credentials are defined as a simple array. As this project uses [Interdose/Dominik Deobald's DB class](https://github.com/Interdose/DB), you can find more information [there](https://github.com/Interdose/DB/blob/master/README.md). 
+Tip: I've added [database_structure.sql](../master/database_structure.sql) to the repository. You can use it to initialize your database. 
 
 ### Telegram
 To be able to push updates to Telegram chats, you must provide a Telegram Bot Token in this section of the config file. You can find more information about Telegram Bots and their API [here](https://core.telegram.org/bots/api). 
