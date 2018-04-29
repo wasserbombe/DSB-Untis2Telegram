@@ -1,5 +1,10 @@
 # DSB-Untis2Telegram
 
+[![GitHub license](https://img.shields.io/github/license/wasserbombe/DSB-Untis2Telegram.svg)](https://github.com/wasserbombe/DSB-Untis2Telegram/blob/master/LICENSE)
+![GitHub last commit](https://img.shields.io/github/last-commit/wasserbombe/DSB-Untis2Telegram.svg)
+![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/wasserbombe/DSB-Untis2Telegram.svg)
+![GitHub top language](https://img.shields.io/github/languages/top/wasserbombe/DSB-Untis2Telegram.svg)
+
 This is a collection of simple scripts to get data of substitute plans that are using "Digitales Schwarzes Brett" and "Untis" - and to push alerts to a Telegram chat. 
 
 **Please note: If you are using these scripts, it's on your own risk. There is no guarantee that this really works and possibly you need some permission by the used services (such as "Digitales Schwarzes Brett") before you are allowed to access/use these services this way!**
