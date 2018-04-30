@@ -70,7 +70,7 @@
 				SELECT *
 				FROM notifications n
 				WHERE n.date = ".$DB->prep($date)."
-					AND n.last_update = ".$DB->prep($stand)."
+					AND (n.last_update = ".$DB->prep($stand)." OR n.last_update = 0)
 					AND n.recipient = ".$DB->prep($alert["chat_id"]).";")->fetchAll();
 			if ($sent){
 
